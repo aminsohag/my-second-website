@@ -10,24 +10,35 @@
   /* banner part */
 
   .banner{
-    max-width: 1440px;
+    max-width: 1060px;
     background-color: #000000;
+    margin: 57px 190px 0 190px;
   }
   .banner-first{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .banner-second{
     display: flex;
   }
   .banner-content{
     width: 600px;
-    margin: 64px 87px 76px 190px;
   }
   .img-banner{
     width: 350px;
     height: 580px;
   }
-  
+  .navbar{
+    display: flex;
+  }
+  .nav-item{
+    list-style: none;
+    margin: 30px;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
   /* section part */
   .section-title{
     font-size: 3rem;
@@ -37,15 +48,10 @@
     font-size: 1rem;
     color: #FFFFFF;
   }
-
-  .footer-title{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #FFFFFF;
-  }
-  .footer-description{
-    font-size: 1.5rem;
-    color: #FFFFFF;
+  /* second section */
+  .second-section{
+    background-color: #222222;
+    border-radius: 18px;
   }
 
   /*  */
@@ -54,19 +60,19 @@
     color: #FFFFFF;
   }
   .img-container{
-    max-width: 1060px;
-    
   }
   .img-2nd-sec{
     border-radius: 50%;
   }
-  img-flex{
+  .img-flex{
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
   .img-content{
-    width: 326px;
-    image-rendering: ;
+    width: 300px;
+    height: 250px;
+    border-radius: 18px;
   }
   .second-section{
     display: flex;
@@ -79,7 +85,7 @@
   .img-run{
     object-fit: none;
     object-position: 66% 33%;
-    height: 24rem;
+    height: 20rem;
     width: 22rem;
     border-radius: 18px;
   }
@@ -91,20 +97,30 @@
 
   /* footer- section */
   footer-container{
-    max-width: 1440px;
-    margin: 66px 190px 174px 191px;
+
   }
 
   .footer-section{
     display: flex;
   }
+  .footer-title{
+    font-size:2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+  .footer-description{
+    font-size:1.2rem;
+    color: #FFFFFF;
+  }
   .footer-first{
     max-width: 443px;
-    margin:66px 102px 247px 190px;
+    margin-right: 102px;
   }
   .footer-second, .footer-third{
     max-width: 181px;
-    margin:66px 152px 0 0;
+  }
+  .footer-second{
+    margin-right: 152px;
   }
   .footer-last{
     text-align: center;
