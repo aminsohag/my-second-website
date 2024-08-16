@@ -8,7 +8,7 @@
 </head>
 <body class="inter-font banner">
    <header class="banner">
-    <nav>
+    <nav class="banner-first">
         <h3 class="section-title">Fitness</h3>
         <ul>
             <li><a href="">Home</a></li>
@@ -16,40 +16,42 @@
             <li><a href="">Contact</a></li>
             <li><a href="">About</a></li>
         </ul>
-        <div>
+    </nav>   
+       <div class="banner-second">
+        <div class="banner-content">
             <h3 class="section-title">Get body in shape & stay healthy</h3>
             <p class="section-description"> huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
             <button><a href="">Join Club Now!</a></button>
             <button><a href="">Download App</a></button>
         </div>
         <div>
-            <img src="images/Images 2.png" alt="">
+            <img class="img-banner" src="images/Images 2.png" alt="">
         </div>
-    </nav>
+       </div>
    </header>
    <main>
     <!-- first Section -->
      <section>
         <h3 class="section-title">Change Your Habits</h3>
         <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-        <div>
+        <div class="img-first">
             <div>
-                <img src="images/image 3.png" alt="">
+                <img class="img-2nd-sec" src="images/image 3.png" alt="">
                 <h5 class="img-title">Movement</h5>
                 <p class="img-description">We believe fitness should be accessible to everyone</p>
             </div>
             <div>
-                <img src="images/image 2.png" alt="">
+                <img class="img-2nd-sec" src="images/image 2.png" alt="">
                 <h5 class="img-title">Time</h5>
                 <p class="img-description">We believe fitness should be accessible to everyone</p>
             </div>
             <div>
-                <img src="images/image 4.png" alt="">
+                <img class="img-2nd-sec" src="images/image 4.png" alt="">
                 <h5 class="img-title">Practice</h5>
                 <p class="img-description">We believe fitness should be accessible to everyone</p>
             </div>
             <div>
-                <img src="images/image 5.png" alt="">
+                <img class="img-2nd-sec" src="images/image 5.png" alt="">
                 <h5 class="img-title">Weight Los</h5>
                 <p class="img-description">We believe fitness should be accessible to everyone</p>
             </div>
@@ -57,11 +59,15 @@
      </section>
      <!-- second section -->
       <section>
-        <h3 class="section-title">Run an Extra Mile Easily</h3>
-        <p class="section-description">e believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-        <button><a href="">Join Now</a></button>
-        <div>
-            <img src="images/run.jpg" alt="">
+        <div class="second-section">
+            <div>
+                <h3 class="section-title">Run an Extra Mile Easily</h3>
+                 <p class="section-description">e believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                 <button><a href="">Join Now</a></button>
+            </div>
+            <div>
+                 <img class="img-run" src="images/run.jpg" alt="">
+            </div> 
         </div>
       </section>
       <!-- challenge part -->
@@ -72,6 +78,7 @@
         </div>
        </section>
        <section>
+       <div class="challenge-section">
         <div>
             <h3 class="section-title">BMI Calculator Chart</h3>
             <table class="section-description">
@@ -109,73 +116,67 @@
                 <input type="text" placeholder="Weight/kg">
                 <br>
                 <input type="text" placeholder="Age">
-                <input type="text" aria-selected="" placeholder="Sex">
+                <select name="" id="">
+                    <option value="">Sex</option>
+                </select>
                 <br>
-                <input type="text" placeholder="Select an activity factor">
+                <select name="" id="">
+                    <option value="">Select an activity factor</option>
+                </select>
                 <br>
                 <button>Calculate</button>
             </form>
+        </div>
+       </div>
+       </section>-+
+       <section>
+        <div>
+            <h3 class="section-title">Why training is very important</h3>
+            <iframe width="1060" height="315" src="https://www.youtube.com/embed/4M2hh3giRWE?si=xnbMzNBiXWRNmIY-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
        </section>
       <!-- third section -->
        <section>
         <h3 class="section-title">Meet Our Team</h3>
         <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-        <div class="">
+        <div class="img-container">
             <div class="img-flex">
-                <img src="images/exercise1.jpg" alt="">
-                <!-- <h5 class="img-title">Jerome Bell</h5>
-                <p class="img-description">Trainer</p> -->
-            </div>
-            <div class="img-flex"
-                <img src="images/exercise2.png" alt="">
-                <!-- <h5 class="img-title">Cameron Williamson</h5>
-                <p class="img-description">Trainer</p> -->
-            </div>
-            <div class="img-flex">
-                <img src="images/exercise3.png" alt="">
-                <!-- <h5 class="img-title">Darrell Steward</h5>
-                <p class="img-description">Trainer</p> -->
-            </div>
-            <div class="img-flex">
-                <img src="images/exercise4.png" alt="">
-                <!-- <h5 class="img-title">Dianne Russell</h5>
-                <p class="img-description">Trainer</p> -->
-            </div>
-            <div class="img-flex">
-                <img src="images/exercise5.jpg" alt="">
-                <!-- <h5 class="img-title">Cody Fisher</h5>
-                <p class="img-description">Trainer</p> -->
-            </div>
-            <div class="img-flex">
-                <img src="images/exercise6.jpg" alt="">
-                <!-- <h5 class="img-title">Theresa Webb</h5>
-                <p class="img-description">Trainer</p> -->
-            </div>
+                <img class="img-content" src="images/trainer1.png" alt="">
+                <img class="img-content" src="images/trainer2.png" alt="">
+                <img class="img-content" src="images/trainer3.png" alt="">
+                <img class="img-content" src="images/trainer4.png" alt="">
+                <img class="img-content" src="images/trainer5.png" alt="">
+                <img class="img-content" src="images/trainer6.png" alt="">
+             </div>   
         </div>
        </section>
    </main>
-   <footer>
+   <footer class="footer-container">
         <section>
-            <div>
-                <h3 class="section-title">Fitness</h3>
-                <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts</p>
+            <div class="footer-section">
+                <div class="footer-first">
+                    <h3 class="section-title">Fitness</h3>
+                    <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts</p>
+                </div>
+                <div class="footer-second">
+                    <h4 class="footer-title">Get Started</h4>
+                    <p class="footer-description">Service</p>
+                    <p class="footer-description">Contact Us</p>
+                    <p class="footer-description">Affiliate Program</p>
+                    <p class="footer-description">About Us</p>
+                </div>
+                <div class="footer-third">
+                    <h4 class="footer-title">Get Started</h4>
+                    <p class="footer-description">Fitness</p>
+                    <p class="footer-description">Platform Us</p>
+                    <p class="footer-description">Workout Libary</p>
+                    <p class="footer-description">App Design</p> 
+                </div>
             </div>
             <div>
-                <h4 class="footer-title">Get Started</h4>
-                <p class="footer-description">Service</p>
-                <p class="footer-description">Contact Us</p>
-                <p class="footer-description">Affiliate Program</p>
-                <p class="footer-description">About Us</p>
+                
             </div>
-            <div>
-                <h4 class="footer-title">Get Started</h4>
-                <p class="footer-description">Fitness</p>
-                <p class="footer-description">Platform Us</p>
-                <p class="footer-description">Workout Libary</p>
-                <p class="footer-description">App Design</p> 
-            </div>
-            <div>
+            <div class="footer-last">
                 <p class="footer-description">All right reserved @Fitness 2024</p>
             </div>
         </section>
